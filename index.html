@@ -9,25 +9,28 @@
 </head>
 <body>
   <header>
-      <img src="./assets/Frame 6 (1).png" alt="Logo Alura">
+    <img class="header__logo" src="./assets/Frame 6 (1).png" alt="Logo Alura">
   </header>
   <main class="apresentacao">
-      <section class="apresentacao__texto">
-          <textarea placeholder="Digite seu texto"></textarea>
-          <p class="apresentacao__aviso" ><i class="ph-fill ph-warning-circle"></i> Apenas letras minúsculas e sem acento.</p>
-          <div class="apresentacao__botao">
-              <button class="apresentacao__botao__criptografar">Criptografar <i class="ph-fill ph-key"></i></button>
-              <button class="apresentacao__botao__descriptografar">Descriptografar</button>
-          </div>
-      </section>
-      <aside class="apresentacao__texto__resultado">
-          <img class="apresentacao__imagem" src="./assets/Mr_ Loop Robo 1222.png" alt="robo">
-          <div class="apresentacao__texto__resultado__tp">
-              <h1 class="apresentacao__texto__resultado__mensagem">Nenhuma mensagem encontrada</h1>
-              <p class="apresentacao__texto__resultado__mensagem__explicacao">Digite um texto que você deseja criptografar ou descriptografar.</p>
-          </div>
-          <button>Copiar</button>
-      </aside>
+    <section class="apresentacao__texto">
+      <h1>Digite um texto que você queira criptografar ou descriptografar</h1>
+        <textarea placeholder="Digite seu texto aqui"></textarea>
+        <p class="apresentacao__aviso" ><i class="ph-fill ph-warning-circle"></i><b>Apenas letras minúsculas e sem acento.</b></p>
+        <div class="apresentacao__botao">
+          <button class="apresentacao__botao__criptografar">Criptografar <i class="ph-fill ph-key"></i></button>
+          <button class="apresentacao__botao__descriptografar">Descriptografar <i class="ph-fill ph-lock-key-open"></i>
+          </button>
+        </div>
+    </section>
+    <aside class="apresentacao__texto__resultado">
+      <img class="apresentacao__imagem" src="./assets/Mr_ Loop Robo 1222.png" alt="robo">
+      <div class="apresentacao__texto__resultado__tp">
+        <h1 class="apresentacao__texto__resultado__mensagem">Nenhuma mensagem encontrada</h1>
+        <p class="apresentacao__texto__resultado__mensagem__explicacao">Digite um texto que você deseja criptografar ou descriptografar.</p>
+      </div>
+      <button class="apresentacao__botao__copiar">Copiar <i class="ph-fill ph-copy"></i>
+      </button>
+    </aside>
   </main>
 </body>
 </html>

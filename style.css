@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -11,10 +13,14 @@ body{
 }
 
 header{
-  padding: 40px 0 0 40px; 
+  padding: 40px 0 0 40px;
 }
 
 .apresentacao{
+  font-family: "Kode Mono", monospace;
+  font-size: small;
+  font-weight: 400;
+  font-style: normal;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,7 +71,7 @@ textarea{
   background-color: white;
   display: flex;
   flex-direction: column;
-  border-radius: 32px;
+  border-radius: 20px;
   height: 700px;
   width: 400px;
   justify-content: center;
@@ -78,13 +84,30 @@ textarea{
 }
 
 .apresentacao__imagem{
-  width: 70%;
+  margin-top: 70px;
+  width: 80%;
   border-radius: 50%;
   -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
   box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
 }
 
+.apresentacao__texto__resultado__tp{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.apresentacao__botao__copiar {
+  padding: 15px 70px;
+  margin-top: 70px;
+}
+
 button {
+  font-family: "Kode Mono", monospace;
+  font-size: small;
+  font-weight: 400;
+  font-style: normal;
   padding: 15px 25px;
   border-radius: 15px;
   border: unset;
