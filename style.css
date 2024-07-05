@@ -33,6 +33,27 @@ header{
   display: flex;
   flex-direction: column;
   gap:30px;
+  margin-top: 70px;
+}
+
+
+.apresentacao__credito{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+.botao{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.botao__rede__social{
+  text-decoration: none;
 }
 
 textarea{
@@ -84,7 +105,14 @@ textarea{
 }
 
 .div__textArea{
-  
+  position: absolute;
+  margin-bottom: 70px;
+
+}
+
+.text__output{
+  width: 350px;
+  height: 500px;
 }
 
 .apresentacao__imagem{
@@ -105,7 +133,6 @@ textarea{
 .apresentacao__botao__copiar {
   padding: 15px 70px;
   margin-top: 70px;
-  
 }
 
 button {

@@ -44,7 +44,7 @@ function toCheckDescriptografia() {
 function copy() {
   const textAreaOutput = document.getElementById("textOutput").innerHTML;
   navigator.clipboard.writeText(textAreaOutput).then(() => {
-    alert("Texto copiado com sucesso.");
+    document.getElementById("copiar").innerHTML = "Copiado!";
   }, () => {
     alert("Falha ao copiar texto.");
   });
