@@ -16,6 +16,10 @@ A aplicação consiste em criptografar um texto digitado pelo usuário, esse tex
 
 * JavaScript
 
+## Deploy
+Você pode conferir a aplicação em funcionamento através do link:
+https://desafio-one-criptografia.vercel.app/
+
 ## Feito por:
 
 ### Luiz Ferreira
