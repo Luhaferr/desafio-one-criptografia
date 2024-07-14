@@ -75,7 +75,6 @@ textarea{
   justify-content: center;
   align-items: center;
   gap: 24px;
-  
 }
 
 .apresentacao__botao__criptografar{
@@ -94,7 +93,7 @@ textarea{
   flex-direction: column;
   border-radius: 20px;
   height: 700px;
-  width: 400px;
+  width: 28.5%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -107,7 +106,6 @@ textarea{
 .div__textArea{
   position: absolute;
   margin-bottom: 70px;
-
 }
 
 .text__output{
@@ -148,7 +146,7 @@ button {
   background: #e8e8e8;
   position: relative;
   font-weight: 1000;
-  font-size: 17px;
+  font-size: 1.062rem;
   -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
   box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
   transition: all 250ms;
@@ -176,4 +174,10 @@ button:hover {
   
 button:hover::before {
   width: 100%;
+}
+
+@media (max-width: 973px) {
+  .apresentacao {
+    flex-direction: column;
+  }
 }
