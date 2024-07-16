@@ -9,7 +9,7 @@ body{
   box-sizing: border-box;
   background-color: #E5E5E5;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
 }
 
 header{
@@ -92,7 +92,7 @@ textarea{
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 700px;
+  height: 85vh;
   width: 28.5%;
   justify-content: center;
   align-items: center;
@@ -109,8 +109,8 @@ textarea{
 }
 
 .text__output{
-  width: 350px;
-  height: 500px;
+  width: 20.1vw;
+  height: 60.7vh;
 }
 
 .apresentacao__imagem{
@@ -129,6 +129,7 @@ textarea{
 }
 
 .apresentacao__botao__copiar {
+  position: relative;
   padding: 15px 70px;
   margin-top: 70px;
 }
@@ -176,8 +177,13 @@ button:hover::before {
   width: 100%;
 }
 
-@media (max-width: 973px) {
+@media (max-width: 992px) {
   .apresentacao {
     flex-direction: column;
+    padding: 0 0 10px ;
+  }
+
+  .apresentacao__texto__resultado {
+    width: 60.435%;
   }
 }
