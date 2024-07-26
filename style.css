@@ -97,7 +97,7 @@ textarea{
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 15px;
+  gap: 25px;
   padding: 0 32px;
   -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
   box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
@@ -180,10 +180,63 @@ button:hover::before {
 @media (max-width: 992px) {
   .apresentacao {
     flex-direction: column;
-    padding: 0 0 10px ;
+    padding: 0 0 10px;
   }
 
   .apresentacao__texto__resultado {
-    width: 60.435%;
+    background-color: none;
+    box-sizing: border-box;
+    padding: 0px;
+    width: 70%;
+    max-width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 0px;
+    box-shadow: none;
+    padding-top: 20px;
+  }
+
+  .apresentacao__imagem {
+    display: none;
+  }
+
+  .apresentacao__texto__resultado__tp {
+    display: none;
+  }
+
+  .apresentacao__credito {
+    display: none;
+  }
+
+  .div__textArea {
+    position: static;
+    margin: 0;
+    width: 100%;
+    padding: 0px;
+    display: inline-block;
+  }
+
+  .text__output{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 97%;
+    max-width: 100%;
+    height: 250px;
+    line-height: 1.5;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    resize: none;
+    display: inline-block;
+  }
+  
+  .apresentacao__botao__copiar {
+    position: relative;
+    padding: 15px 70px;
+    margin-top: 0;
   }
 }
